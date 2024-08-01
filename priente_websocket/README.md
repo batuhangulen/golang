@@ -17,25 +17,26 @@ gerçekleştirebilirsiniz.
 
 	- go get github.com/gorilla/websocket
 
-# Yerel Ağ Üzerinde WebSocket Uygulaması için gerekli olan kurulumların yapılmasının ardından yine
+Yerel Ağ Üzerinde WebSocket Uygulaması için gerekli olan kurulumların yapılmasının ardından yine
 kullanmakta olduğunuz Shell ortamı içerisinde;
 	
 	ipconfig komutunu çalıştırarak Server olarak tanımlayacağınız yerel bilgisayarınızın
 	IP bilgilerini kopyalayın veya bir yere not edin.
 
-# Daha sonrasında kaynak kodları içerisinde yer alan public/script.js dosyasını herhangi bir derleyici
+Daha sonrasında kaynak kodları içerisinde yer alan public/script.js dosyasını herhangi bir derleyici
 üzerinden açmanız gerekmektedir.
 	
 Script dosyası içerisinde birinci satırda parantez içinde yer alan ---> 'ws://**.**.**.**:8080/ws'
 şeklinde hali hazırda yazılmış olan komut bünyesinde var olan yıldızlı alanlar yerine Server olarak
 tanımlamak istediğiniz yerel bilgisayarınızın IP bilgilerini girerek dosyayı kaydediniz!
 
-# Bu işlemin ardından Yerel Ağ Üzerinde WebSocket Uygulaması kaynak dosyalarının yer aldığı dizin
+Bu işlemin ardından Yerel Ağ Üzerinde WebSocket Uygulaması kaynak dosyalarının yer aldığı dizin
 içerisinde var olan "main.exe" uygulamasını çalıştırarak WINDOWS tarafından istenilen izinlere 
 izin veriniz.
 
-# TEBRİKLER! Yerel ağ sunucunuzu oluşturmuş bulunmaktasınız. Artık sizler ile aynı ağ merkezini paylaşan
-CLIENT'lar (istemciler), herhangi bir WEB tarayıcı üzerinden "http://**.**.**.**:8080" adlı URL'yi
+# TEBRİKLER! Yerel ağ sunucunuzu oluşturmuş bulunmaktasınız. 
+
+Artık sizler ile aynı ağ merkezini paylaşan CLIENT'lar (istemciler), herhangi bir WEB tarayıcı üzerinden "http://**.**.**.**:8080" adlı URL'yi
 ziyaret ederek bu basit Yerel Ağ WebSocket uygulamasına bağlanabilir ve aynı ağ merkezini paylaştığı
 diğer CLIENT'lar (istemciler) ile haberleşebilmektedir.
 

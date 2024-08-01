@@ -20,8 +20,7 @@ gerçekleştirebilirsiniz.
 Yerel Ağ Üzerinde WebSocket Uygulaması için gerekli olan kurulumların yapılmasının ardından yine
 kullanmakta olduğunuz Shell ortamı içerisinde;
 	
-	ipconfig komutunu çalıştırarak Server olarak tanımlayacağınız yerel bilgisayarınızın
-	IP bilgilerini kopyalayın veya bir yere not edin.
+	ipconfig komutunu çalıştırarak Server olarak tanımlayacağınız yerel bilgisayarınızın IP bilgilerini kopyalayın veya bir yere not edin.
 
 Daha sonrasında kaynak kodları içerisinde yer alan public/script.js dosyasını herhangi bir derleyici
 üzerinden açmanız gerekmektedir.
